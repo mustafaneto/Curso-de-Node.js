@@ -10,7 +10,6 @@ const products = [];
 
 // /admin/add-product => GET
 router.get("/add-product", (req, res, next) => {
-  productCSS: true;
   res.render("add-product", {
     docTitle: "Add Product",
     path: "/admin/add-product",
